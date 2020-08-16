@@ -10,8 +10,9 @@
     padding: 0.5rem 0rem; }
 
 .line-sperator {
+  height: 0px;
   margin: 1rem 0rem;
-  border: 1px solid #9d9fb8; }
+  border-top: 2px solid #9d9fb8; }
 
 .social-link {
   margin: 0 0.5rem;
@@ -32,6 +33,32 @@
     color: #e1306c; }
     .social-link-instagram:hover {
       color: #c61d56; }
+
+.btn {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  line-height: 1.2;
+  text-transform: capitalize; }
+  .btn-hire {
+    border: 1px solid #ff9100;
+    border-radius: 0.2rem;
+    background-color: #ff9100;
+    color: #fff; }
+    .btn-hire:hover {
+      background-color: transparent;
+      color: #ff9100; }
+  .btn-hired {
+    border: 1px solid #17a64e;
+    border-radius: 0.2rem;
+    background-color: #17a64e;
+    color: #fff; }
+    .btn-hired:hover {
+      background-color: transparent;
+      color: #17a64e; }
+  .btn-fav {
+    color: #9d9fb8; }
+  .btn-faved {
+    color: #d54062; }
 
 html,
 body {
@@ -97,5 +124,19 @@ a {
           color: #1a237e; }
           #user-card .profile-data-container .profile-data-personal-details .proflie-data-personal-links .profile-data-web-link a:hover {
             color: #ff9100; }
+    #user-card .profile-data-container .profile-data-stats {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      #user-card .profile-data-container .profile-data-stats .profile-data-stats-card {
+        text-transform: capitalize; }
+        #user-card .profile-data-container .profile-data-stats .profile-data-stats-card .stats-card-detail {
+          font-size: 2rem; }
+        #user-card .profile-data-container .profile-data-stats .profile-data-stats-card .stats-card-description {
+          font-family: "Muli-SemiBold", sans-serif; }
+    #user-card .profile-data-container .profile-data-actions {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
 
 /*# sourceMappingURL=style.css.map */

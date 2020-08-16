@@ -2,6 +2,7 @@
 @import "typography";
 @import "sperators";
 @import "sociacllinks";
+@import "btn";
 
 // General Style Resettings
 html,
@@ -107,6 +108,32 @@ a {
 				.profile-data-social-links {
 				}
 			}
+		}
+
+		// Profile Stats
+		.profile-data-stats {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+
+			.profile-data-stats-card {
+				text-transform: capitalize;
+
+				.stats-card-detail {
+					font-size: 2rem;
+				}
+
+				.stats-card-description {
+					font-family: "Muli-SemiBold", sans-serif;
+				}
+			}
+		}
+
+		// Profile Data Action
+		.profile-data-actions {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
 		}
 	}
 }

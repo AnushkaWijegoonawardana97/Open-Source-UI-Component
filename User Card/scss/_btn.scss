@@ -1,0 +1,42 @@
+.btn {
+	padding: 1rem 1.5rem;
+	font-size: 1rem;
+	line-height: 1.2;
+	text-transform: capitalize;
+
+	// Hire Button
+	&-hire {
+		border: 1px solid $primary-btn;
+		border-radius: 0.2rem;
+		background-color: $primary-btn;
+		color: $btn-font;
+
+		&:hover {
+			background-color: transparent;
+			color: $primary-btn;
+		}
+	}
+
+	// Hired Button
+	&-hired {
+		border: 1px solid $badge-color;
+		border-radius: 0.2rem;
+		background-color: $badge-color;
+		color: $btn-font;
+
+		&:hover {
+			background-color: transparent;
+			color: $badge-color;
+		}
+	}
+
+	// Add To Favourite Button
+	&-fav {
+		color: $secondary-font;
+	}
+
+	// Favourite Button
+	&-faved {
+		color: $faved-btn;
+	}
+}
