@@ -1,9 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<title>User Card</title>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>User Card</title>
+
+		<!-- Font Awesome CDN -->
+		<script
+			src="https://kit.fontawesome.com/b27501a5af.js"
+			crossorigin="anonymous"
+		></script>
+
+		<!-- Custome CSS File -->
+		<link rel="stylesheet" href="css/style.css" />
 	</head>
 	<body>
 		<!-- Main Container -->
@@ -12,8 +21,92 @@
 			<div class="user-card" id="user-card">
 				<!-- Profile Picture Container -->
 				<div class="profiel-picture-container">
+					<!-- Profile Picture -->
 					<div class="profile-picture">
-						<img src="" alt="Profile Picture" class="profile-picture-image" />
+						<img
+							src="assets/ProfileImage.jpg"
+							alt="Profile Picture"
+							class="profile-picture-image"
+						/>
+					</div>
+
+					<!-- Profile Ratings -->
+					<div class="profile-ratings">
+						<div class="profile-rating-stars">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="far fa-star"></i>
+						</div>
+						<div class="profile-rating-badge">4.0</div>
+					</div>
+				</div>
+
+				<!-- Profile Data Container -->
+				<div class="profile-data-container">
+					<!-- Profile Personal Details -->
+					<div class="profile-data-personal-details">
+						<div class="profile-data-name">debra bellamy</div>
+						<div class="profile-data-occupation">.net developer</div>
+
+						<!-- Space Sperator -->
+						<div class="space-sperator space-sperator-half"></div>
+
+						<div class="proflie-data-personal-links">
+							<div class="profile-data-web-link">
+								<a href="#!"><i class="fas fa-globe"></i> aeglesbridal.com</a>
+							</div>
+
+							<div class="profile-data-social-links">
+								<a href="#!" class="social-link social-link-linkedin"
+									><i class="fab fa-linkedin-in"></i
+								></a>
+
+								<a href="#!" class="social-link social-link-behance"
+									><i class="fab fa-behance"></i
+								></a>
+
+								<a href="#!" class="social-link social-link-instagram"
+									><i class="fab fa-instagram"></i
+								></a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Line Sperator -->
+					<div class="line-sperator"></div>
+
+					<!-- Profile Stats -->
+					<div class="profile-data-stats">
+						<div class="profile-data-stats-card">
+							<div class="stats-card-detail">24</div>
+							<div class="stats-card-description">jobs completed</div>
+						</div>
+
+						<div class="profile-data-stats-card">
+							<div class="stats-card-detail">89%</div>
+							<div class="stats-card-description">on time</div>
+						</div>
+					</div>
+
+					<!-- Space Sperator -->
+					<div class="space-sperator"></div>
+
+					<!-- Profile Bio -->
+					<div class="profile-data-bio">
+						I am an experienced academic writer with vast skills to research in
+						different fields . My majors include Business Studies, English ,
+						History, Management, Psychology, sociology,
+					</div>
+
+					<!-- Space Sperator -->
+					<div class="space-sperator space-sperator-half"></div>
+
+					<!-- Profile Action Container -->
+					<div class="profile-data-actions">
+						<a href="#!" class="btn btn-hire" id="btn-hire">hire debra</a>
+						<a href="#!" class="btn btn-fav" id="btn-fav">Add to favorites</a>
 					</div>
 				</div>
 			</div>

@@ -1,0 +1,12 @@
+.space-sperator {
+	padding: 1rem 0rem;
+
+	&-half {
+		padding: 0.5rem 0rem;
+	}
+}
+
+.line-sperator {
+	margin: 1rem 0rem;
+	border: 1px solid $secondary-font;
+}

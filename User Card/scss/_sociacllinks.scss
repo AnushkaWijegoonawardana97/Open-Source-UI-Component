@@ -1,0 +1,35 @@
+.social-link {
+	margin: 0 0.5rem;
+	font-weight: bolder;
+
+	&:first-child {
+		margin-left: 0;
+	}
+	&:last-child {
+		margin-right: 0;
+	}
+
+	&-linkedin {
+		color: #0e76a8;
+
+		&:hover {
+			color: darken(#0e76a8, 9);
+		}
+	}
+
+	&-behance {
+		color: #053eff;
+
+		&:hover {
+			color: darken(#053eff, 9);
+		}
+	}
+
+	&-instagram {
+		color: #e1306c;
+
+		&:hover {
+			color: darken(#e1306c, 9);
+		}
+	}
+}

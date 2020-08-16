@@ -1,3 +1,101 @@
+@font-face {
+  font-family: Muli-Bold;
+  src: url("../assets/Muli-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: Muli-SemiBold;
+  src: url("../assets/Muli-SemiBold.ttf") format("truetype"); }
+.space-sperator {
+  padding: 1rem 0rem; }
+  .space-sperator-half {
+    padding: 0.5rem 0rem; }
 
+.line-sperator {
+  margin: 1rem 0rem;
+  border: 1px solid #9d9fb8; }
+
+.social-link {
+  margin: 0 0.5rem;
+  font-weight: bolder; }
+  .social-link:first-child {
+    margin-left: 0; }
+  .social-link:last-child {
+    margin-right: 0; }
+  .social-link-linkedin {
+    color: #0e76a8; }
+    .social-link-linkedin:hover {
+      color: #0a587e; }
+  .social-link-behance {
+    color: #053eff; }
+    .social-link-behance:hover {
+      color: #0031d6; }
+  .social-link-instagram {
+    color: #e1306c; }
+    .social-link-instagram:hover {
+      color: #c61d56; }
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%; }
+
+a {
+  text-decoration: none; }
+
+#main-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+#user-card {
+  max-width: 500px;
+  border-radius: 0.5rem;
+  box-shadow: 11px 11px 54px 0px rgba(0, 51, 153, 0.14);
+  padding: 2rem;
+  font-family: "Muli-Bold", sans-serif;
+  color: #1a237e;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center; }
+  #user-card .profiel-picture-container {
+    flex: 1;
+    text-align: center;
+    margin-right: 1rem; }
+    #user-card .profiel-picture-container .profile-picture .profile-picture-image {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover; }
+    #user-card .profiel-picture-container .profile-ratings {
+      font-size: 0.75rem; }
+      #user-card .profiel-picture-container .profile-ratings .profile-rating-stars {
+        margin-bottom: 0.2rem; }
+      #user-card .profiel-picture-container .profile-ratings .profile-rating-badge {
+        padding: 0.1rem 0.3rem;
+        display: inline-block;
+        background-color: #17a64e;
+        color: #fff;
+        border-radius: 0.3rem;
+        min-width: 2.5rem; }
+  #user-card .profile-data-container {
+    flex: 2; }
+    #user-card .profile-data-container .profile-data-personal-details {
+      text-transform: capitalize; }
+      #user-card .profile-data-container .profile-data-personal-details .profile-data-name {
+        font-size: 2rem;
+        font-weight: bolder; }
+      #user-card .profile-data-container .profile-data-personal-details .profile-data-occupation {
+        color: #9d9fb8; }
+      #user-card .profile-data-container .profile-data-personal-details .proflie-data-personal-links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-transform: lowercase; }
+        #user-card .profile-data-container .profile-data-personal-details .proflie-data-personal-links .profile-data-web-link a {
+          color: #1a237e; }
+          #user-card .profile-data-container .profile-data-personal-details .proflie-data-personal-links .profile-data-web-link a:hover {
+            color: #ff9100; }
 
 /*# sourceMappingURL=style.css.map */

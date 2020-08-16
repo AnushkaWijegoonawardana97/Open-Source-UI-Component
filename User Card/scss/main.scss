@@ -1,0 +1,112 @@
+@import "varibles";
+@import "typography";
+@import "sperators";
+@import "sociacllinks";
+
+// General Style Resettings
+html,
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+// ======================= Style Divider =======================
+
+// Page Container Styllings
+#main-container {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+// User Card Styllings
+#user-card {
+	max-width: 500px;
+	border-radius: 0.5rem;
+	box-shadow: 11px 11px 54px 0px rgba(0, 51, 153, 0.14);
+	padding: 2rem;
+	font-family: "Muli-Bold", sans-serif;
+	color: $primary-font;
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+
+	// Profile Picture Container Stylings
+	.profiel-picture-container {
+		flex: 1;
+		text-align: center;
+		margin-right: 1rem;
+
+		.profile-picture {
+			.profile-picture-image {
+				width: 120px;
+				height: 120px;
+				border-radius: 50%;
+				object-fit: cover;
+			}
+		}
+
+		.profile-ratings {
+			font-size: 0.75rem;
+
+			.profile-rating-stars {
+				margin-bottom: 0.2rem;
+			}
+
+			.profile-rating-badge {
+				padding: 0.1rem 0.3rem;
+				display: inline-block;
+				background-color: $badge-color;
+				color: $btn-font;
+				border-radius: 0.3rem;
+				min-width: 2.5rem;
+			}
+		}
+	}
+
+	// Profile Data Container Stylings
+	.profile-data-container {
+		flex: 2;
+
+		// Profile Personal Details
+		.profile-data-personal-details {
+			text-transform: capitalize;
+
+			.profile-data-name {
+				font-size: 2rem;
+				font-weight: bolder;
+			}
+
+			.profile-data-occupation {
+				color: $secondary-font;
+			}
+
+			.proflie-data-personal-links {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+				text-transform: lowercase;
+
+				.profile-data-web-link {
+					a {
+						color: $primary-font;
+
+						&:hover {
+							color: $primary-btn;
+						}
+					}
+				}
+
+				.profile-data-social-links {
+				}
+			}
+		}
+	}
+}
